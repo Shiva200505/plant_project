@@ -9,8 +9,8 @@ export default function Header() {
     <div style={{display:'flex',justifyContent:'space-between',padding:'10px',background:'#2e7d32',color:'white'}}>
       <h2>Paradise Nursery</h2>
       <div>
-        <Link to="/products" style={{marginRight:'20px',color:'white'}}>Products</Link>
-        <Link to="/cart" style={{color:'white'}}>Cart ({total})</Link>
+        <Link to="/plant_project/products" style={{marginRight:'20px',color:'white'}}>Products</Link>
+        <Link to="/plant_project/cart" style={{color:'white'}}>Cart ({total})</Link>
       </div>
     </div>
   )

@@ -27,7 +27,7 @@ export default function Cart() {
         </div>
       ))}
 
-      <Link to="/products"><button>Continue Shopping</button></Link>
+      <Link to="/plant_project/products"><button>Continue Shopping</button></Link>
       <button onClick={()=>alert('Coming Soon')}>Checkout</button>
     </div>
   )
